@@ -80,8 +80,11 @@ nav{
 
 footer{
     height: 625px;
+    width: 1030px;
     background-color: #e4e4e4;
     display: flex;
+    margin: none;
+    border: none;
     padding: 64px 32px;
 }
 
@@ -94,14 +97,13 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 960px;
-    height: 221px;
+    
 }
-
+/* 
 .first-box{
     display: flex;
     justify-content: space-around;
-}
+} */
 
 .sub-menu{
     font-size: 13px;
@@ -122,4 +124,9 @@ footer{
 
 .sub-menu-item:hover{
     text-decoration: underline;
+} 
+
+.container{
+    width: 960px;
+    height: 497px;
 }
